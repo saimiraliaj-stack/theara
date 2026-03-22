@@ -1,82 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kontakt | THÈA RA MODE & DESIGN</title>
-  <meta name="description" content="Kontakt zu THÈA RA MODE & DESIGN aufnehmen." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt — THÈA RA MODE & DESIGN</title>
+  <meta name="description" content="Kontakt zu THÈA RA MODE & DESIGN.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="site-shell">
-    <header class="header">
-      <a class="brand" href="index.html" aria-label="THÈA RA Startseite">
-        <img src="assets/logo.png" alt="THÈA RA Logo" class="brand-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
-        <span class="brand-text fallback-logo">THÈA RA</span>
-      </a>
-      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
-      <nav class="nav">
-        <a href="index.html">Start</a>
-        <a href="arbeit.html">Unsere Arbeit</a>
-        <a href="kontakt.html" class="active">Kontakt</a>
-        <a href="impressum.html">Impressum</a>
-      </nav>
-    </header>
+  <div class="announcement">KONTAKT · DIREKT · KLAR · OHNE UMWEGE</div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="THÈA RA" class="brand-logo"></a>
+    <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">Menu</button>
+    <nav class="site-nav">
+      <a href="index.html">Start</a>
+      <a href="arbeit.html">Unsere Arbeit</a>
+      <a href="studio.html">Studio</a>
+      <a class="is-active" href="kontakt.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+    </nav>
+  </header>
 
-    <main>
-      <section class="page-hero compact">
-        <div class="eyebrow">KONTAKT</div>
-        <h1>Lass uns über dein Projekt sprechen.</h1>
-        <p>Für Anfragen, Kooperationen und individuelle Gestaltungsprojekte erreichst du uns direkt über die folgenden Kontaktdaten.</p>
-      </section>
+  <main>
+    <section class="page-hero">
+      <span class="eyebrow">KONTAKT</span>
+      <h1>Für Projekte, Anfragen und Kooperationen.</h1>
+      <p>Wenn du eine saubere, hochwertige und moderne Präsentation für deine Marke oder deine Produkte suchst, melde dich direkt.</p>
+    </section>
 
-      <section class="contact-grid">
-        <div class="contact-card soft-panel">
-          <div class="section-tag">Direkt</div>
-          <h2>THÈA RA MODE & DESIGN</h2>
-          <ul class="contact-list">
-            <li><span>E-Mail</span><a href="mailto:kontakt@thea-ra.de">kontakt@thea-ra.de</a></li>
-            <li><span>Telefon</span><a href="tel:+4917655981468">017655981468</a></li>
-            <li><span>Adresse</span><address>Müllersgasse 4<br>47051 Duisburg</address></li>
-          </ul>
-        </div>
-
-        <div class="contact-card form-card">
-          <div class="section-tag">Anfrage</div>
-          <h2>Schreib uns</h2>
-          <form class="contact-form" action="mailto:kontakt@thea-ra.de" method="post" enctype="text/plain">
-            <label>
-              <span>Name</span>
-              <input type="text" name="Name" placeholder="Dein Name" required>
-            </label>
-            <label>
-              <span>E-Mail</span>
-              <input type="email" name="E-Mail" placeholder="dein@email.de" required>
-            </label>
-            <label>
-              <span>Nachricht</span>
-              <textarea name="Nachricht" rows="6" placeholder="Erzähl uns kurz von deinem Projekt" required></textarea>
-            </label>
-            <button type="submit" class="btn btn-dark">Nachricht vorbereiten</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div>
-        <strong>THÈA RA MODE & DESIGN</strong>
-        <p>Müllersgasse 4, 47051 Duisburg</p>
+    <section class="section contact-layout">
+      <div class="contact-panel">
+        <span class="eyebrow">THÈA RA MODE & DESIGN</span>
+        <h2>Direkter Kontakt</h2>
+        <ul class="contact-data">
+          <li><span>E-Mail</span><a href="mailto:kontakt@thea-ra.de">kontakt@thea-ra.de</a></li>
+          <li><span>Telefon</span><a href="tel:+4917655981468">017655981468</a></li>
+          <li><span>Adresse</span><address>Müllersgasse 4<br>47051 Duisburg</address></li>
+        </ul>
       </div>
-      <div class="footer-links">
-        <a href="kontakt.html">Kontakt</a>
-        <a href="impressum.html">Impressum</a>
-      </div>
-    </footer>
-  </div>
+      <form class="contact-form" action="mailto:kontakt@thea-ra.de" method="post" enctype="text/plain">
+        <label>
+          <span>Name</span>
+          <input type="text" name="Name" required>
+        </label>
+        <label>
+          <span>E-Mail</span>
+          <input type="email" name="E-Mail" required>
+        </label>
+        <label>
+          <span>Nachricht</span>
+          <textarea name="Nachricht" rows="7" required></textarea>
+        </label>
+        <button class="btn btn-dark" type="submit">Nachricht vorbereiten</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>THÈA RA MODE & DESIGN</strong>
+      <p>Müllersgasse 4, 47051 Duisburg</p>
+    </div>
+    <div class="footer-links">
+      <a href="arbeit.html">Unsere Arbeit</a>
+      <a href="impressum.html">Impressum</a>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
