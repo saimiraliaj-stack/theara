@@ -1,32 +1,19 @@
-# THÈA RA premium website
+# THÈA RA MODE & DESIGN — Static Website
 
-GitHub Pages ready static website.
+Premium, minimalist multi-page website ready for GitHub Pages.
 
-## Pages
-- index.html
-- work.html
-- studio.html
-- services.html
-- websites.html
-- contact.html
-- impressum.html
+## Structure
+- `index.html` + German subpages
+- `en/` + English subpages
+- `assets/` for logo, styles, scripts and portfolio images
 
-## Assets
-- assets/logo.png (replace with your final logo if needed)
-- assets/logo.svg (fallback)
-- assets/images/Foto1.jpg ... Foto12.jpg
+## Deploy on GitHub Pages
+1. Upload all files to a GitHub repository.
+2. In GitHub, open **Settings → Pages**.
+3. Choose the branch that contains the website files.
+4. Publish from the repository root.
 
-## Important
-Keep the same image filenames if you replace them later:
-- Foto1.jpg
-- Foto2.jpg
-- ...
-- Foto12.jpg
-
-## GitHub Pages deploy
-Push everything to the root of your repository and enable:
-- Settings
-- Pages
-- Deploy from a branch
-- Branch: main
-- Folder: /root
+## Notes
+- The contact form is intentionally serverless and opens the visitor's email client.
+- Placeholder portfolio images and logo are included so the site works immediately.
+- Replace `/assets/images/Foto1.jpg` to `/assets/images/Foto12.jpg` and `/assets/logo.*` with final brand assets when available.
