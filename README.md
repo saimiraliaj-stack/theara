@@ -1,17 +1,37 @@
-# THÈA RA MODE & DESIGN
+# THÈA RA Premium Website
 
-Static multi-page website prepared for GitHub Pages.
+GitHub Pages ready. All links are relative and work in a repository project page such as:
 
-## Deploy
-1. Upload all files to your repository root.
-2. Go to **Settings → Pages**.
-3. Set **Source** to **Deploy from branch**.
-4. Choose your main branch and **/(root)**.
-5. Open your site at:
-   `https://YOUR-USERNAME.github.io/YOUR-REPO/`
+https://USERNAME.github.io/theara/
 
-## Important
-- All internal links and asset paths are relative and GitHub Pages-safe.
-- German pages are in the root.
-- English pages are in `/en/`.
-- Replace `assets/logo.svg`, `assets/logo.png`, and `assets/images/Foto1.jpg` to `Foto12.jpg` with your final brand assets any time.
+## Replace later
+- `assets/logo.svg`
+- `assets/logo.png`
+- `assets/images/Foto1.svg` ... `Foto12.svg`
+
+You can also replace the image references in HTML/CSS with `.jpg` files if you prefer.
+
+## Included pages
+German:
+- index.html
+- arbeitskleidung.html
+- websites.html
+- leistungen.html
+- arbeit.html
+- kontakt.html
+- impressum.html
+- datenschutz.html
+
+English:
+- en/index.html
+- en/workwear.html
+- en/websites.html
+- en/services.html
+- en/work.html
+- en/contact.html
+- en/imprint.html
+- en/privacy.html
+
+## Publish
+Upload all files to the root of your GitHub repository and enable GitHub Pages from:
+Settings → Pages → Deploy from branch → main → /(root)
