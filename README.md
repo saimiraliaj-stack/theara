@@ -1,19 +1,17 @@
-# THÈA RA MODE & DESIGN — Static Website
+# THÈA RA MODE & DESIGN
 
-Premium, minimalist multi-page website ready for GitHub Pages.
+Static multi-page website prepared for GitHub Pages.
 
-## Structure
-- `index.html` + German subpages
-- `en/` + English subpages
-- `assets/` for logo, styles, scripts and portfolio images
+## Deploy
+1. Upload all files to your repository root.
+2. Go to **Settings → Pages**.
+3. Set **Source** to **Deploy from branch**.
+4. Choose your main branch and **/(root)**.
+5. Open your site at:
+   `https://YOUR-USERNAME.github.io/YOUR-REPO/`
 
-## Deploy on GitHub Pages
-1. Upload all files to a GitHub repository.
-2. In GitHub, open **Settings → Pages**.
-3. Choose the branch that contains the website files.
-4. Publish from the repository root.
-
-## Notes
-- The contact form is intentionally serverless and opens the visitor's email client.
-- Placeholder portfolio images and logo are included so the site works immediately.
-- Replace `/assets/images/Foto1.jpg` to `/assets/images/Foto12.jpg` and `/assets/logo.*` with final brand assets when available.
+## Important
+- All internal links and asset paths are relative and GitHub Pages-safe.
+- German pages are in the root.
+- English pages are in `/en/`.
+- Replace `assets/logo.svg`, `assets/logo.png`, and `assets/images/Foto1.jpg` to `Foto12.jpg` with your final brand assets any time.

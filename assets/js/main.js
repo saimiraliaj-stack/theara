@@ -1,7 +1,8 @@
-
 const navWrap = document.querySelector('.nav-wrap');
 const menuToggle = document.querySelector('.menu-toggle');
-if (menuToggle) menuToggle.addEventListener('click', () => navWrap.classList.toggle('open'));
+if (menuToggle && navWrap) {
+  menuToggle.addEventListener('click', () => navWrap.classList.toggle('open'));
+}
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -19,9 +20,12 @@ if (contactForm) {
     const name = data.get('name') || '';
     const email = data.get('email') || '';
     const company = data.get('company') || '';
-    const message = data.get('message') || '';
+    const project = data.get('project') || '';
+    const details = data.get('details') || '';
     const subject = encodeURIComponent(contactForm.dataset.subject || 'Projektanfrage');
-    const body = encodeURIComponent(`Name: ${name}\nE-Mail: ${email}\nUnternehmen: ${company}\n\nNachricht:\n${message}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nE-Mail: ${email}\nUnternehmen: ${company}\nProjekt: ${project}\n\nDetails:\n${details}`
+    );
     window.location.href = `mailto:kontakt@thea-ra.de?subject=${subject}&body=${body}`;
   });
 }
